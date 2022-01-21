@@ -1,0 +1,100 @@
+ion-content {
+    --background: url(/assets/back4.png) no-repeat center/cover;
+  }
+   
+  ion-slides {
+      height: 100%;
+      --bullet-background-active: #fff;
+      --bullet-background: #000;
+  }
+  img{
+      height: 350px;
+      width: 200px;
+  }
+  
+  .qr{
+      border-radius: 8px;
+      width: 170px;
+  }
+  
+  
+  .section1{
+    height: 60%;
+    margin: 0;
+    padding-right: 40vw;
+    position: relative;
+  }
+  
+  .section2{
+    height: 30%;
+    margin: 0;
+    position: relative;
+  }
+  
+  body{
+    //background-color: #d7e1f3;
+    background-color:whitesmoke;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: .7em;
+  }
+  hr{
+    border-top: 3px solid rgb(230, 201, 87);
+    margin-top: 0;
+  }
+  
+  .relsign{
+    text-align:center;
+    margin-top:-0.8vh ;
+    position: relative;
+    height: 5vh;
+  }
+  
+  .sign{
+    margin-top: -4vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Miriam Libre';
+    display: inline-block;
+    --background: linear-gradient( rgb(148,129,56), rgb(244,216,112));
+    --color-activated: rgb(0,32,96);
+    text-transform: none;
+    font-size: large;
+    
+  }
+  
+  .create{
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Miriam Libre';
+    --background: radial-gradient(circle ,rgb(148,129,56) 5% , rgb(244,216,112) 80% );
+    --color-activated: rgb(0,32,96);
+    text-transform: none;
+    display: inline-block;
+    
+  }
+  .intro{
+    text-align: center;
+    color: #595959;
+    text-transform: none;
+    line-height: 1.3em;
+    font-size: 2.8vh;
+    height: 12vh ;
+  }
+  .couverture{
+    width: 100vw;
+    height: 60vh;
+    position:absolute;
+  }
+  .LOGO{
+    position :relative;
+    margin: 32vh 10vw;
+    width : 40vw;
+    height: 32vh;
+    animation: rotation 3s infinite;
+  }
+  @keyframes rotation {
+      0%  {-webkit-transform: rotate(0deg);}
+    50% {-webkit-transform: rotate(10deg);}
+  }
+  

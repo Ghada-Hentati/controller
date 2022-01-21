@@ -1,0 +1,58 @@
+<ion-content>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button href="../start">
+      <ion-icon name="close-outline"></ion-icon>
+    </ion-fab-button >
+  </ion-fab>
+
+  <ion-slides pager="true">
+
+    <!-- Slide 1 -->
+    <ion-slide>
+      <ion-text color="dark">
+        <img class="qr" src="assets/QR.gif">
+        <h1>Hey there!</h1>
+        <p>Scan your QR code to get started...</p>
+      </ion-text>
+    </ion-slide>
+ 
+    <!-- Slide 2 -->
+    <ion-slide>
+      <ion-text color="dark">
+        <img src="assets/mask.gif">
+        <h1>It's MASKUP!</h1>
+        <p>... Please wear your mask correctly!</p>
+      </ion-text>
+    </ion-slide>
+
+    <!-- Slide 3 -->
+    <ion-slide>
+      <ion-text color="dark">
+        <img src="assets/temp.gif">
+        <h1>It's MASKUP!</h1>
+        <p>... Check your body temreture too!</p>
+      </ion-text>
+    </ion-slide>
+
+    <!-- Slide 4 -->
+    <ion-slide>
+      <ion-text color="dark">
+        <img src="assets/sanitizer.gif">
+        <h1>It's MASKUP!</h1>
+        <p>... Now you can have your hands sanitizer!</p>
+      </ion-text>
+    </ion-slide>
+
+    <!-- Slide 5 -->
+    <ion-slide>
+      <ion-text color="dark">
+        <img src="assets/dist.gif">
+        <h1>Have a good day!</h1>
+        <p>... Make sure to keep your social distancing!</p>
+        <ion-button (click)="start()" fill="outline" color="light"></ion-button>
+      </ion-text>
+    </ion-slide>
+ 
+  </ion-slides>
+</ion-content>
